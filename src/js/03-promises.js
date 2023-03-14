@@ -46,4 +46,6 @@ function onSubmit(event) {
 
     delayValue += stepValue;
   }
+
+  refs.form.reset();
 }
